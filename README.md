@@ -1,6 +1,6 @@
-# RL_MultiAsset_Portfolio_Regimes
-## Used RL again to construct a portfolio with the same assets, but this time included probabilities of being in either of 2 regimes as a predictor feature.
-## Reference of previous RL task => https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio
+# RL_MultiAsset_Portfolio_Regimes & PCA & Markov Switching Autoregressive
+### Used RL again to construct a portfolio with the same assets, but this time included probabilities of being in either of 2 regimes as a predictor feature.
+### Reference of previous RL task => https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio
 
 * The main difference now is that the features are PCs that track movement in assets as before, but I added the probability of being in a High Volatility regime (which coincides with periods of market panic and the start of the recovery afterwards). Therefore, the idea was not to use exclusively the risk-on/off indicator represented by the 1st PC which accounts for the majority of the dispersion in returns of all assets, but also to include the probability of being in a high-volatility regime so that the algorithm could use this new information, aside from the level where the PC_1 is and its change during the last month, to allocate 100% of the portfolio among the 3 different assets (Eq, FI HY, FI Treas).
 * The probability of being in a High or Low volatility regime is calculated using a Markov Switching Autoregressive model for regime detection and classification.
