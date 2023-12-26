@@ -10,34 +10,24 @@
 * Main conclusion after trying to automate the construction of a portfolio with the 3 main assets you'd find in any portfolio, using deciles of valuation variables, PCs that track assets returns and probabilities of being in a high volatility regime =>  
 
 
-### Graph Results from portfolio construction
+### Graph: Results + Weights from portfolio construction
 
-06-07
+**06-07**
 
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/1a50e0b6-c698-49e5-9922-9ed42e5135bd)
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/ddf5a673-961f-4326-9e4f-5a0018df9d29)
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/256c6695-0472-4d3f-b9b3-5fe092b639e2)
 
-07-08
+**07-08**
 
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/3620f09a-e2b5-44e0-95c9-042c71c9fcdf)
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/22bc391d-e94d-41d0-900c-346f8843aa67)
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/dd7b2cba-5938-4c26-97d0-32ee37bee41d)
 
-Covid
+**Covid**
 
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/fe79c60e-fd6a-4280-bf97-204011f02336)
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/086bf145-16a1-4802-9efc-b7eb7053b17f)
-
-### Graph Weights assigned to the portfolio
-
-06-07
-
-![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/256c6695-0472-4d3f-b9b3-5fe092b639e2)
-
-07-08
-
-![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/dd7b2cba-5938-4c26-97d0-32ee37bee41d)
-
-Covid
-
 ![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/396a6069-b918-4163-aaec-fe4e28e95fa1)
+
 
