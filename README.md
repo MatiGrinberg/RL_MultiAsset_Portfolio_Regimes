@@ -7,10 +7,37 @@
 * The code was roughly the same as in the reference repository, so I didn't see the need of uploading all files again. If you use my previous RL repository as reference, this time instead of using PCs as features, I coupled it with the output (probabilities of belonging to one regime) from the Markov fitting. Therefore, in this repository, you'll only find 1 file, where I calculate these probabilities and run the training and testing, as the rest is roughly the same. However, you can obviously see the feature engineering in it.
 * The results are (even) ... than before. When compared against a (common) benchmark of 0.55 Eq + 0.25 Treas + 0.1 FI HY, it achieves an (average) Information Ratio (IR) of ... (from 1993 till 2023). When compared against an Equity passive strategy (portfolio = 100% SPX), it achieves an (average) IR of ...
 * You can see an example below of the testing results for 1 period. You see how after training, on a new (unseen) test set, the model uses the information it has at that time (PC_1 and regime probability) to assign 100% of the weight of the portfolio to different asset classes. The returns obtained from it (weights * returns) are used to build the portfolio returns and the final value of it (and its benchmark) during the whole testing period (as seen in the graph). Each period tested provides an IR, and then all of them are averaged.
-* Main conclusion after trying to automate the construction of a portoflio with the 3 main assets you'd find in any portfolio, using deciles of valuation variables, PCs that track assets returns and probabilities of being in a high volatility regime =>  
+* Main conclusion after trying to automate the construction of a portfolio with the 3 main assets you'd find in any portfolio, using deciles of valuation variables, PCs that track assets returns and probabilities of being in a high volatility regime =>  
 
 
 ### Graph Results from portfolio construction
 
+06-07
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/1a50e0b6-c698-49e5-9922-9ed42e5135bd)
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/ddf5a673-961f-4326-9e4f-5a0018df9d29)
+
+07-08
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/3620f09a-e2b5-44e0-95c9-042c71c9fcdf)
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/22bc391d-e94d-41d0-900c-346f8843aa67)
+
+Covid
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/fe79c60e-fd6a-4280-bf97-204011f02336)
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/086bf145-16a1-4802-9efc-b7eb7053b17f)
+
 ### Graph Weights assigned to the portfolio
+
+06-07
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/256c6695-0472-4d3f-b9b3-5fe092b639e2)
+
+07-08
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/dd7b2cba-5938-4c26-97d0-32ee37bee41d)
+
+Covid
+
+![image](https://github.com/MatiGrinberg/RL_MultiAsset_Portfolio_Regimes/assets/45952871/396a6069-b918-4163-aaec-fe4e28e95fa1)
 
